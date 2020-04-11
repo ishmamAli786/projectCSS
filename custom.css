@@ -39,3 +39,39 @@
 .menu{
     float:right;
 }
+.wrapper-content{
+    text-align:center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background: url("images/travel1.jpg") 100% fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper-content h1{
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+    margin-bottom: 0px;
+}
+.wrapper-content p{
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    margin:20PX;
+}
+.learn-btn{
+    color: white;
+    font-size: 25px;
+    border: 1px solid blue;
+    border-radius: 100px;
+    background: linear-gradient(rgba(0,55,255,0.6),rgba(0,55,255,0.4));
+    padding: 10px 30px;
+    margin:20px;
+}
+.learn-btn:hover{
+   /* background: linear-gradient(rgba(0,55,255,0.7),rgba(0,55,255,0.4));*/
+   color:blue;
+   background-color: white;
+   border: 1px solid white;
+}
